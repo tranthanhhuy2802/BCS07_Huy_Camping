@@ -1,0 +1,203 @@
+/* reset css */
+* {
+  padding: 0;
+  margin: 0;
+  /*box-sizing: border-box sẽ tự động canh chỉnh width = nội dụng + padding + border */
+  box-sizing: border-box;
+}
+body {
+  background-color: #faf4f2;
+}
+.clear {
+  clear: both;
+}
+.header {
+  background-color: #f8e1db;
+  padding: 10px 60px;
+  /*padding có thể tạo vùng chọn rộng hơn */
+  /* padding: 20px cách ra 4 hướng khoảng 20px */
+  /* padding: 50px 30px cách trên 50px, trái phải 30px */
+  /* padding: 40px 30 px 20px cách trên 40px cách phải 30px cách dưới 20px*/
+  /* padding: 50px 40px 30px 20px cách trên 50px phải 40px dưới 30px trái 20px*/
+  /* padding-left: 50px cách trái 50px*/
+}
+.header .header__logo img {
+  margin-bottom: 10px;
+}
+.header .header__nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+.header .header__nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+.banner {
+  background-image: url(./../img/BG.png);
+  height: 100vh;
+  /* background-repeat: no-repeat giúp hình nền không lặp đi lặp lại khi hình nhỏ hơn vùng hiển thị */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+}
+
+/* đây là css explore */
+.explore {
+  background-color: #faf4f2;
+  padding: 60px 0;
+}
+.explore .explore__title {
+  text-align: center;
+}
+.explore .explore__title h2 {
+  color: #8d8d8d;
+}
+.explore .explore__content {
+  margin-top: 30px;
+}
+.explore .explore__content .explore__content__items .item {
+  float: left;
+  width: 25%;
+  padding: 0 15px;
+}
+.explore .explore__content .explore__content__items .item .item__bg {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  /*  border-radius: bo góc */
+  border-radius: 20px;
+  position: relative;
+}
+.explore .explore__content .explore__content__items .item .item__bg i {
+  color: red;
+
+  /*không chỉnh font-size gây ảnh hưởng thư viện */
+}
+.explore .explore__content .explore__content__items .item .item__bg .bg__icon {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  top: 70px;
+  right: 70px;
+  background-color: whitesmoke;
+  border-radius: 12px;
+}
+.explore .explore__content .explore__content__items .item .item__bg img {
+  border-radius: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.explore .explore__content .explore__content__items .item .item__bg p {
+  color: #8d8d8d;
+  margin-top: 12px;
+  line-height: 40px;
+}
+.explore .explore__content .explore__content__items .item .item__bg button {
+  border-radius: 20px;
+  padding: 15px 60px;
+  color: #8d8d8d;
+  margin-top: 15px;
+  border: none;
+  /* border:  2px solid red;
+    thuộc tính border nhận vào ba giá trị : độ dày đường viền, kiểu đường viền, màu đường viền,ngoài ra có thể chỉnh riêng biệt từng cái 
+    border: width style color 
+    hoặc chỉnh từng cái :
+        border-width : 2px
+        border-color : red
+        border-style : solid */
+}
+.explore .explore__content {
+  text-align: center;
+}
+.explore .explore__content .explore__viewall {
+  padding: 15px 70px;
+  color: orangered;
+  border: 1px solid orangered;
+  background-color: unset;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.contact {
+  background-color: #f8e1db;
+  border-radius: 0 20px 20px 0;
+}
+.contact .contact__image {
+  background-image: url(./../img/mask.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  width: 50%;
+  padding: 20px 60px;
+}
+.contact .contact__content {
+  float: left;
+  width: 50%;
+  padding-top: 70px;
+  padding-right: 100px;
+}
+.contact .contact__content h2 {
+  color: #8d8d8d;
+}
+.contact .contact__content p {
+  color: #888888;
+  margin: 15px 0 30px 0;
+}
+.contact .contact__content .contact__content__left {
+  float: left;
+  width: 50%;
+}
+.contact .contact__content h3 {
+  color: #888888;
+  margin-bottom: 15px;
+}
+.contact .contact__content .contact__content__right {
+  float: left;
+  width: 50%;
+}
+.contact .contact__content .contact__content__right i {
+  font-size: 25px;
+  margin-right: 10px;
+  color: #e76f51;
+}
+.footer {
+  background-color: #f8e1db;
+  border-radius: 100px 100px 0 0;
+  text-align: left;
+  margin-top: 100px;
+}
+.footer .footer_left {
+  float: left;
+  width: 40%;
+  line-height: 30px;
+  padding: 70px 45px 0 50px;
+}
+.footer h3 {
+  margin-bottom: 20px;
+}
+.footer .footer_right {
+  float: left;
+  width: 60%;
+  padding-top: 70px;
+}
+.footer .footer_right .footet_right1 {
+  float: left;
+  width: 33%;
+}
+.footer .footer_right ul li {
+  margin: 20px 0;
+  list-style: none;
+}
+.footer .footer_right ul li a {
+  text-decoration: none;
+  color: black;
+}
+.footer .footerC2020 {
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+/* #8d919c
+#f0f0f0
+#8d8da7
+#FAF4F2 */

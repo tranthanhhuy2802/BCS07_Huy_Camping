@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- /* lưu ý khi gắn thư viện: chú ý phiên bản cdn, thư viện phải được gắn nằm trên file css của chúng ta, để sau này cần đề lại code của thư viện hoặc tránh gặp lỗi khi các css trùng nhau */  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- đây là phần header  -->
+    <div class="header">
+        <!-- logo  -->
+        <!-- đặt tên class theo quy tắc  -->
+        <!-- BEM: header__logo  -->
+        <!-- snake case: header_logo  -->
+
+        <div class="header__logo">
+            <img src="./img/logoicon.png" alt="logo">
+            <!-- thanh điều hướng  -->
+        </div>
+        <div class="header__nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- đây là phần banner  -->
+    <div class="banner">
+    </div>
+    <!-- đây là phần explore  -->
+    <div class="explore">
+        <div class="explore__title">
+
+            <img src="./img/Group 313.png" alt="">
+            <h2>Explore Destination & Activitives</h2>
+        </div>
+        <div class="explore__content">
+            <div class="explore__content__items">
+                <!-- đoạn này chưa 4 item -->
+                <!-- item1  -->
+                <div class="item">
+                    <div class="item__bg">
+                        <img src="./img/product1.png" alt="product1">
+                        <h3>Trickle Creek Ranch</h3>
+                        <p>Book unique camping experiences on over 300,000 campsites</p>
+                        <button>Read More</button>
+                        <div class="bg__icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- item2 -->
+                <div class="item">
+                    <div class="item__bg">
+                        <img src="./img/product4.png" alt="product1">
+                        <h3>Trickle Creek Ranch</h3>
+                        <p>Book unique camping experiences on over 300,000 campsites</p>
+                        <button>Read More</button>
+                        <div class="bg__icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- item3 -->
+                <div class="item">
+                    <div class="item__bg">
+                        <img src="./img/product5.png" alt="product1">
+                        <h3>Trickle Creek Ranch</h3>
+                        <p>Book unique camping experiences on over 300,000 campsites</p>
+                        <button>Read More</button>
+                        <div class="bg__icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- item4 -->
+                <div class="item">
+                    <div class="item__bg">
+                        <img src="./img/product5.png" alt="product1">
+                        <h3>Trickle Creek Ranch</h3>
+                        <p>Book unique camping experiences on over 300,000 campsites</p>
+                        <button>Read More</button>
+                        <div class="bg__icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+            <button class="explore__viewall">View All</button>
+        </div>
+    </div>
+    <!-- đây là phần contact  -->
+    <div class="contact">
+        <div class="contact__image">
+            <img src="./img/homeicon.png" alt="">
+        </div>
+        <div class="contact__content">
+            <h2>Let's Stay in Touch</h2>
+            <p>Get travel planning ideads, helpful tips, and stories from our visitor delivered right to your inbox.</p>
+            <div class="contact__content__left">
+                <h3>Download Our App</h3>
+                <img src="./img/download-on-the-app-store-apple-1.png" alt="">
+                <img src="./img/google-play-badge-1.png" alt="">
+            </div>
+            <div class="contact__content__right">
+                <h3>Follow Us</h3>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!-- đây là phần footer  -->
+    <div class="footer">
+        <div class="footer_left">
+            <h3>Hipcamp is everywhere you want to camp.</h3>
+            <p>Discover unique experiences on ranches, nature preserves, farms, vineyards, and public campgrounds across
+                the U.S. Book tent camping, trechouses, cabins. ‘yuns, primitive backcountry sies, car camping,
+                airstreams,tiny houses, RV camping. glamping tcnts and more..</p>
+        </div>
+        <div class="footer_right">
+            <div class="footet_right1">
+                <h3>Let Us Help You</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#"> Rules & Reservation</a></li>
+                    <li><a href="#">Policies</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#"> Media Center</a></li>
+                </ul>
+            </div>
+            <div class="footet_right1">
+                <h3>Plan with us</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#"> Rules & Reservation</a></li>
+                    <li><a href="#">Policies</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#"> Media Center</a></li>
+                </ul>
+            </div>
+            <div class="footet_right1">
+                <h3>Let Us Help You</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#"> Rules & Reservation</a></li>
+                    <li><a href="#">Policies</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#"> Media Center</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="footerC2020">© 2020. All rights reserved.</div>
+    </div>
+</body>
+
+</html>
